@@ -1,3 +1,7 @@
 h1 {text-shadow: 5px 5px white;}
 
 body {background-color: LightGray;}
+
+#album {
+    font-family: 'Saira Condensed', sans-serif;
+}
