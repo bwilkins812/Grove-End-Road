@@ -1,7 +1,30 @@
 h1 {text-shadow: 5px 5px white;}
 
-body {background-color: LightGray;}
+body {background-color:lightgray}
 
 #album {
     font-family: 'Saira Condensed', sans-serif;
+}
+
+a {
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: none;
+}
+a:link {
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: none;
+}
+a:visited {
+    color:blue;
+
+}
+a:hover {
+    background-color:green; 
+    color: red;
+    text-decoration: underline;
+}
+td {
+    font-style: italic;
 }
