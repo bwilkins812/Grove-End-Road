@@ -1,5 +1,9 @@
 h1 {text-shadow: 5px 5px white;}
 
+h3 {
+    text-align: center
+}
+
 body {background-color:lightgray}
 
 #album {
