@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-    <html>
+    <html lang="en">
         <head> 
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Quadrophenia</title>
-            <!--<style>body {background-color: LightGray;}</style>-->    
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+              
             <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet" id="album">
             </div>
-            <link href="AlbumStyles.css" rel="stylesheet" type="text/css" />           
+            <link href="AlbumStyles.css" rel="stylesheet" type="text/css" />  
+            <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">         
         </head>
-        <body>
+        <body style="background-color: LightGray;">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script src="js/bootstrap.min.js"></script>
             <center>
-                <div style="background: url(https://upload.wikimedia.org/wikipedia/en/8/8a/Quadrophenia_%28album%29.jpg); height: 300px; width: 300px;">
+                <img class="img-circle" style="background: url(https://upload.wikimedia.org/wikipedia/en/8/8a/Quadrophenia_%28album%29.jpg); height: 300px; width: 300px;">
                     <!--alt="Quadrophenia Album Cover";-->
-                </div>
-                            
+                </img>
             </center>
             <div id=album>
             <center>
@@ -48,22 +54,22 @@
                 <li><em>The Who, Kit Lambert, Chris Stamp, Pete Kameron, Glyn Johns</em> - Producers</li>
             </ul>
             </p>
-            <table border="1" width="80%" align="center">
+            <div class="container table-responsive">
+            <table class="table table-striped" border="1" width="80%" align="center">
                 <colgroup>
                     <col span="1" style="width: 10%;">
                     <col span="1" style="width: 30%;">
                     <col span="1" style="width: 60%;">
-                </colgroup>
-
-
-            
+                </colgroup>      
                 <caption><h3>Tracks - Disc 1</h3></caption>
+                <thead>
                     <tr bgcolor="grey">
                         <th>Track #</th>
                         <th>Track Title</th>
                         <th>Track Length</th>
                     </tr>
-                    <tbody bgcolor="lightblue">
+                </thead>
+                <tbody bgcolor="lightblue">
                     <tr>
                         <td align="center">1</td>
                         <td align="center">I Am The Sea</td>
@@ -114,22 +120,26 @@
                         <td align="center">I've Had Enough</td>
                         <td align="center">6:16</td>
                     </tr>
-                    </tbody>
+                </tbody>
                 </colgroup>
             </table>
+            </div>
             <br/>
-                <table border="1" width="80%" align="center">
+            <div class="container table-responsive">
+                <table class="table table-striped" border="1" width="80%" align="center">
                     <colgroup>
                             <col span="1" style="width: 10%;">
                             <col span="1" style="width: 30%;">
                             <col span="1" style="width: 60%;">
                     <caption><h3>Tracks - Disc 2</h3></caption>
+                    <thead>
                         <tr bgcolor="grey">
                             <th>Track #</th>
                             <th>Track Title</th>
                             <th>Track Length</th>
                         </tr>
-                        <tbody bgcolor="lightblue">
+                    </thead>
+                    <tbody bgcolor="lightblue">
                         <tr>
                             <td align="center">1</td>
                             <td align="center">5:15</td>
@@ -165,12 +175,9 @@
                             <td align="center">Love Reign O'er Me</td>
                             <td align="center">5:49</td>
                         </tr>
-                        </tbody>
-                        
+                    </tbody>
+                    <!--</colgroup>-->                     
                 </table>
-                
-
-
             </div>
         </body>
     </html>
